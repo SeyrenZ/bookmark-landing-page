@@ -62,7 +62,7 @@ const Navbar = () => {
               </div>
               <Link
                 href="/"
-                className="w-full flex items-center justify-center py-4 border-2 border-white rounded-md bg-transparent hover:bg-opacity-80 hover:scale-105 transition ease-in-out duration-300 text-[20px] leading-[17px] font-medium text-white tracking-[2.3px]"
+                className="w-full flex items-center justify-center py-4 border-2 border-white rounded-md bg-transparent transition ease-in-out duration-300 text-[20px] leading-[17px] font-medium text-white tracking-[2.3px]"
               >
                 LOGIN
               </Link>
