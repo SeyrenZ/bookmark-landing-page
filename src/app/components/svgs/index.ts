@@ -1,0 +1,10 @@
+export { default as ArrowIcon } from "/icon-arrow.svg";
+export { default as CloseIcon } from "/icon-close.svg";
+export { default as ErrorIcon } from "/icon-error.svg";
+export { default as HamburgerIcon } from "/icon-hamburger.svg";
+export { default as ChromeLogo } from "/logo-chrome.svg";
+export { default as FirefoxLogo } from "/logo-firefox.svg";
+export { default as OperaLogo } from "/logo-opera.svg";
+export { default as BookmarkLogo } from "/logo-bookmark.svg";
+export { default as FacebookIcon } from "/icon-facebook.svg";
+export { default as TwitterIcon } from "/icon-twitter.svg";
