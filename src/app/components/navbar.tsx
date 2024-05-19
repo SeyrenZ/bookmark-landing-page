@@ -97,14 +97,14 @@ const Navbar = () => {
               <Link
                 href={link.url}
                 key={index}
-                className="text-[13px] leading-[17px] tracking-[1.5px] text-primary-darkBlue hover:text-opacity-60 uppercase transition ease-in-out duration-300"
+                className="text-[13px] leading-[17px] tracking-[1.5px] text-primary-darkBlue hover:text-primary-red uppercase transition ease-in-out duration-300"
               >
                 {link.name}
               </Link>
             ))}
             <Link
               href="/"
-              className="w-fit px-[34px] py-3 rounded-lg bg-primary-red hover:bg-opacity-80 hover:scale-105 transition ease-in-out duration-300 text-[13px] leading-[17px] text-white tracking-[1.5px]"
+              className="w-fit px-[32px] py-[10px] rounded-lg bg-primary-red hover:bg-transparent border-[2px] border-primary-red transition ease-in-out duration-300 text-[13px] leading-[17px] text-white hover:text-primary-red tracking-[1.5px]"
             >
               LOGIN
             </Link>
