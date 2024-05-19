@@ -5,8 +5,8 @@ import React from "react";
 const Header = () => {
   return (
     <div className="w-full h-auto px-5">
-      <div className="w-full h-auto max-w-[1110px] sm:py-[106px] py-[70px] mx-auto flex lg:flex-row flex-col items-center justify-between sm:gap-y-[160px] gap-y-[90px] relative">
-        <div className="flex flex-col lg:items-start items-center gap-y-7 lg:order-1 order-2">
+      <div className="w-full h-auto max-w-[1110px] sm:py-[106px] py-[70px] mx-auto flex lg:flex-row flex-col items-center lg:justify-between sm:gap-y-[160px] gap-y-[90px]">
+        <div className="flex flex-col lg:items-start items-center lg:justify-normal justify-center gap-y-7 lg:order-1 order-2">
           <div className="sm:text-5xl text-[30px] sm:leading-[1] leading-[40px] text-primary-darkBlue sm:font-bold font-medium lg:text-left text-center">
             A Sample Bookmark
             <br />
@@ -34,7 +34,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div className="w-auto h-auto relative lg:order-2 order-1">
+        <div className="relative lg:order-2 order-1">
           <Image
             src="/illustration-hero.svg"
             width={576}
