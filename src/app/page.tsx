@@ -3,7 +3,7 @@ import Header from "./components/header";
 
 const Home = () => {
   return (
-    <main className="pt-[108px]">
+    <main className="overflow-hidden">
       <Header />
     </main>
   );
