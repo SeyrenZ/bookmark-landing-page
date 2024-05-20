@@ -40,7 +40,7 @@ const Header = () => {
             width={576}
             height={386}
             alt="Hero Image"
-            className="sm:w-[576px] w-[303px] rounded-xl lg:mr-[-66px] relative z-20"
+            className="sm:w-[576px] w-[303px] rounded-3xl lg:mr-[-66px] relative z-20"
             style={{ boxShadow: "0 25px 50px -12px  rgba(82,103,223,0.32)" }}
           />
           <div className="absolute lg:top-[90px] sm:top-[120px] top-[50px] lg:right-[-290px] sm:right-[-240px] right-[-135px] z-10 sm:w-[660px] w-[400px] sm:h-[352px] h-[209px] bg-primary-blue rounded-[316px]" />
