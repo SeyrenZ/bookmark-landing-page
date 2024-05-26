@@ -34,16 +34,16 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div className="relative lg:order-2 order-1">
+        <div className="relative lg:order-2 order-1 lg:mr-[-66px]">
           <Image
             src="/illustration-hero.svg"
             width={576}
             height={386}
             alt="Hero Image"
-            className="sm:w-[576px] w-[303px] rounded-3xl lg:mr-[-66px] relative z-20"
+            className="sm:w-[576px] w-[303px] rounded-3xl relative z-20"
             style={{ boxShadow: "0 25px 50px -12px  rgba(82,103,223,0.32)" }}
           />
-          <div className="absolute lg:top-[90px] sm:top-[120px] top-[50px] lg:right-[-290px] sm:right-[-240px] right-[-135px] z-10 sm:w-[660px] w-[400px] sm:h-[352px] h-[209px] bg-primary-blue rounded-[316px]" />
+          <div className="absolute sm:top-[120px] top-[50px] lg:right-[-220px] sm:right-[-240px] right-[-135px] z-10 sm:w-[660px] w-[400px] sm:h-[352px] h-[209px] bg-primary-blue rounded-[316px]" />
         </div>
       </div>
     </div>
