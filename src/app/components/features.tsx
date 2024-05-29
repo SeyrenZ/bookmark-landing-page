@@ -40,7 +40,7 @@ const Features = () => {
     features.find((feature) => feature.id === Features) || features[0];
 
   return (
-    <div className="w-full h-auto px-[32px] pt-20 pb-28">
+    <div className="w-full h-auto px-[32px] pt-20">
       <div className="w-full max-w-[1110px] mx-auto flex flex-col items-center gap-y-[72px]">
         <div className="w-full max-w-[540px] flex flex-col items-center gap-y-4">
           <div className="text-[30px] leading-[40px] text-primary-darkBlue font-medium">
@@ -67,11 +67,11 @@ const Features = () => {
             </div>
           ))}
         </div>
-        <div className="w-full relative">
+        <div className="w-full h-auto relative">
           <div className="absolute lg:top-[80px] top-[30px] lg:left-[-220px] sm:left-[-240px] left-[-135px] z-10 sm:w-[660px] w-[400px] sm:h-[352px] h-[209px] bg-primary-blue rounded-[316px]" />
           <div
             key={currentFeature.id}
-            className={`fadeIn w-full flex lg:flex-row flex-col gap-y-[50px] items-center sm:justify-between relative z-20`}
+            className={`fadeIn w-full lg:h-[435px] sm:h-[850px] h-[550px] flex lg:flex-row flex-col gap-y-[50px] items-center lg:justify-between relative z-20`}
           >
             <div className="relative">
               <Image
