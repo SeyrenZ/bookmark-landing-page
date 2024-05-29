@@ -6,7 +6,6 @@ body {
   min-width: 360px;
 }
 
-
 /* The 'enter' state is applied immediately after the component is added */
 .feature-enter {
     opacity: 0;

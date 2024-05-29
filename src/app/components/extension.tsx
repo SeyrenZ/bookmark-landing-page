@@ -1,5 +1,5 @@
 import React from "react";
-import { ChromeLogo, FirefoxLogo, OperaLogo } from "./svgs";
+import { ChromeLogo, DotPattern, FirefoxLogo, OperaLogo } from "./svgs";
 import Link from "next/link";
 
 const Extension = () => {
@@ -56,10 +56,10 @@ const Extension = () => {
             return (
               <div
                 key={index}
-                className={`${placementClass} w-[280px] h-[371px]  p-5 rounded-2xl shadow-lg flex items-center justify-center bg-white`}
+                className={`${placementClass} w-[280px] h-[371px] rounded-2xl shadow-lg flex items-center justify-center bg-white`}
                 style={{ boxShadow: "-0 10px 15px -3px rgba(82,103,223,0.32)" }}
               >
-                <div className="mt-14 w-full flex flex-col gap-y-[29px] items-center">
+                <div className="mt-4 w-full flex flex-col gap-y-[29px] items-center">
                   <div>{extension.logo}</div>
                   <div className="flex flex-col gap-y-[6px]">
                     <div className="text-[20px] font-bold text-primary-darkBlue">
@@ -69,9 +69,10 @@ const Extension = () => {
                       {extension.desc}
                     </div>
                   </div>
+                  <DotPattern />
                   <Link
                     href={extension.link}
-                    className="w-full max-w-[232px] h-[48px] flex items-center justify-center bg-primary-blue hover:bg-transparent border-[2px] border-primary-blue rounded-md text-[14px] leading-[28px] font-medium text-white hover:text-primary-blue transition ease-in-out duration-300"
+                    className="w-full lg:max-w-[232px] sm:max-w-[180px] max-w-[232px] h-[48px] flex items-center justify-center bg-primary-blue hover:bg-transparent border-[2px] border-primary-blue rounded-md text-[14px] leading-[28px] font-medium text-white hover:text-primary-blue transition ease-in-out duration-300"
                   >
                     Add & Install Extension
                   </Link>

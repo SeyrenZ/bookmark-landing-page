@@ -9,3 +9,4 @@ export { default as BookmarkLogo } from "./logo-bookmark.svg";
 export { default as BookmarkLogoMonochrome } from "./logo-bookmark-monochrome.svg";
 export { default as FacebookIcon } from "./icon-facebook.svg";
 export { default as TwitterIcon } from "./icon-twitter.svg";
+export { default as DotPattern } from "./bg-dots.svg";
