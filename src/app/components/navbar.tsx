@@ -43,11 +43,19 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, [isMenuOpen]);
 
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isMenuOpen]);
+
   return (
     <div className="w-full h-auto sm:px-5 px-8 relative">
       {isMenuOpen && (
         <>
-          <div className="absolute z-50 inset-0 bg-primary-darkBlue bg-opacity-[95%] w-full py-10 px-8 min-h-screen flex flex-col items-center justify-between space-y-6">
+          <div className="absolute z-50 inset-0 bg-primary-darkBlue bg-opacity-[95%] w-full py-10 px-8 h-screen flex flex-col items-center justify-between space-y-6">
             <div className="w-full flex flex-col space-y-7">
               <div className="w-full border-y-[1px] mt-[115px] border-white border-opacity-15 flex flex-col items-center justify-center divide-y divide-white divide-opacity-15">
                 {links.map((link, index) => (
