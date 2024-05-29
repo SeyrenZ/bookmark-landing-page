@@ -71,7 +71,7 @@ const Features = () => {
           <div className="absolute lg:top-[80px] top-[30px] lg:left-[-220px] sm:left-[-240px] left-[-135px] z-10 sm:w-[660px] w-[400px] sm:h-[352px] h-[209px] bg-primary-blue rounded-[316px]" />
           <div
             key={currentFeature.id}
-            className={`fadeIn w-full h-[435px] flex lg:flex-row flex-col gap-y-[50px] items-center sm:justify-between relative z-20`}
+            className={`fadeIn w-full flex lg:flex-row flex-col gap-y-[50px] items-center sm:justify-between relative z-20`}
           >
             <div className="relative">
               <Image
@@ -82,11 +82,11 @@ const Features = () => {
                 className="rounded-3xl relative sm:w-[536px] w-[311px]"
               />
             </div>
-            <div className="w-full max-w-[445px] flex flex-col sm:items-start items-center sm:gap-y-4">
+            <div className="w-full max-w-[445px] flex flex-col lg:items-start items-center sm:gap-y-4">
               <div className="sm:text-[32px] text-[24px] leading-[52px] font-bold text-primary-darkBlue">
                 {currentFeature.title}
               </div>
-              <div className="sm:text-lg text-[15px] text-primary-darkBlue text-opacity-50 sm:text-left text-center">
+              <div className="sm:text-lg text-[15px] text-primary-darkBlue text-opacity-50 lg:text-left text-center">
                 {currentFeature.desc}
               </div>
               <Link
