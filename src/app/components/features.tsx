@@ -71,7 +71,7 @@ const Features = () => {
           <div className="absolute lg:top-[80px] top-[30px] lg:left-[-220px] sm:left-[-240px] left-[-135px] z-10 sm:w-[660px] w-[400px] sm:h-[352px] h-[209px] bg-primary-blue rounded-[316px]" />
           <div
             key={currentFeature.id}
-            className={`fadeIn w-full lg:h-[435px] sm:h-[850px] h-[550px] flex lg:flex-row flex-col gap-y-[50px] items-center lg:justify-between relative z-20`}
+            className={`fadeIn w-full lg:h-[435px] sm:h-[850px] h-[550px] flex lg:flex-row flex-col gap-y-[50px] items-center lg:justify-between lg:gap-x-10 relative z-20`}
           >
             <div className="relative">
               <Image
