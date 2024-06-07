@@ -6,32 +6,6 @@ body {
   min-width: 360px;
 }
 
-/* The 'enter' state is applied immediately after the component is added */
-.feature-enter {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  
-  /* The 'enter-active' state is applied during the 'entering' phase */
-  .feature-enter-active {
-    opacity: 1;
-    transform: scale(1);
-    transition: opacity 1000ms, transform 1000ms;
-  }
-  
-  /* The 'exit' state is applied immediately when a component is being removed */
-  .feature-exit {
-    opacity: 1;
-    transform: scale(1);
-  }
-  
-  /* The 'exit-active' state is applied during the 'exiting' phase */
-  .feature-exit-active {
-    opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 1000ms, transform 1000ms;
-  }
-
   .fadeIn {
     animation: fadeIn 500ms ease-out;
   }
@@ -39,10 +13,12 @@ body {
   @keyframes fadeIn {
     from {
       scale: 0.8;
+      opacity: 0;
     
     }
     to {
       scale: 1;
+      opacity: 1;
     
     }
   }
