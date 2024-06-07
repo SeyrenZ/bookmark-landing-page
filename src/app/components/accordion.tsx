@@ -39,7 +39,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="w-full py-20 px-8">
+    <div className="w-full py-5 px-8">
       <div className="w-full max-w-[1110px] mx-auto flex flex-col items-center justify-center sm:gap-y-[52px] gap-y-[48px]">
         <div className="max-w-[540px] flex flex-col gap-y-4 items-center justify-center">
           <div className="sm:text-[32px] sm:leading-[52px] text-[24px] leading-[30px] font-medium text-primary-darkBlue text-center">
