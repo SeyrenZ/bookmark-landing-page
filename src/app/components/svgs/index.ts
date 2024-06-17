@@ -1,12 +1,14 @@
 export { default as ArrowIcon } from "./icon-arrow.svg";
 export { default as CloseIcon } from "./icon-close.svg";
 export { default as ErrorIcon } from "./icon-error.svg";
+export { default as SuccessIcon } from "./icon-success.svg";
 export { default as HamburgerIcon } from "./icon-hamburger.svg";
 export { default as ChromeLogo } from "./logo-chrome.svg";
 export { default as FirefoxLogo } from "./logo-firefox.svg";
 export { default as OperaLogo } from "./logo-opera.svg";
 export { default as BookmarkLogo } from "./logo-bookmark.svg";
 export { default as BookmarkLogoMonochrome } from "./logo-bookmark-monochrome.svg";
+export { default as BookmarkLogoWhiteText } from "./logo-bookmark-white-text.svg";
 export { default as FacebookIcon } from "./icon-facebook.svg";
 export { default as TwitterIcon } from "./icon-twitter.svg";
 export { default as DotPattern } from "./bg-dots.svg";
