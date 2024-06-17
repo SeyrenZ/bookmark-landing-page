@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Features from "./components/features";
 import Extension from "./components/extension";
 import Accordion from "./components/accordion";
+import Footer from "./components/footer";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Features />
       <Extension />
       <Accordion />
+      <Footer />
     </main>
   );
 };
